@@ -1,6 +1,5 @@
-
-.hello-intro > h2{
-	font-size: 2em;
+.hello-intro > h2 {
+    font-size: 2em;
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-style: bold;
@@ -13,8 +12,7 @@
 }
 
 .container-intro {
-
-	position: absolute;
+    position: absolute;
     z-index: 10;
     top: 55%;
     width: 200px;
@@ -22,15 +20,12 @@
     left: 50%;
     margin-top: -45px;
     margin-left: -100px;
-
-
 }
 
-.github  {
-
+.github {
     text-decoration: none;
-	font-size: 16px;
-	font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #A9A9A9;
     text-align: center;
@@ -38,11 +33,10 @@
     margin-left: 5%;
 }
 
-.portfolio{
-
+.portfolio {
     text-decoration: none;
-	font-size: 16px;
-	font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #A9A9A9;
     text-align: center;
@@ -50,24 +44,21 @@
     margin-left: 5%;
 }
 
-body{
-
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     height: 100vh;
-
 }
 
-#particles-js{
+#particles-js {
     height: 100%;
     background: #eaf1f8;
 }
 
 .container-intro a:hover {
-
-    color: #383838; 
-    text-decoration: : none; 
-    font-weight: none 
+    color: #383838;
+    text-decoration: :none;
+    font-weight: none
 }
 
 .triangle-down {
@@ -81,44 +72,37 @@ body{
     left: 6%;
     margin-top: -50px;
     margin-left: -100px;
-
 }
 
-
-h4{
-
+h4 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 2.3em;
     margin-bottom: 0.5em;
     text-align: center;
     margin-top: 55px;
-
 }
-p{
 
+p {
     font-family: "Lora", serif;
     color: #858585;
     text-align: center;
     line-height: 1.8;
     font-size: 1.5em;
-    margin:30px;
-    margin-bottom:10px;
-
+    display: block;
+    margin: 0 auto;
+    width:80%;
+    margin-bottom: 16px;
 }
 
-ol{
-
-
+ol {
     font-family: "Lora", serif;
     color: #858585;
     line-height: 1.8;
     font-size: 1.2em;
     list-style-position: inside;
     margin-bottom: 30px;
-    margin-left:43%;
-
-
+    margin-left: 43%;
 }
 
 li a {
@@ -128,165 +112,86 @@ li a {
     background-color: transparent;
 }
 
-
-li a:hover{
-     background-color: #F8F8F8;
+li a:hover {
+    background-color: #F8F8F8;
 }
 
-
-.about_me > a{
-
+.about_me > a {
     text-decoration: none;
     color: #2C3E50;
     font-family: "Lora", serif;
     background-color: transparent;
-
 }
 
-.about_me a:hover{
-     background-color: #F8F8F8;
+.about_me a:hover {
+    background-color: #F8F8F8;
 }
 
-html{
+html {
     scroll-behavior: smooth
 }
 
-
 .container-projects {
-
     max-width: 1600px;
     background-color: #ffffff;
     height: 300px;
     width: 80%;
     margin-top: 50px;
-    margin:auto;
+    margin: auto;
     border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-
 }
 
-hr{
+hr {
     border: 0;
     height: 1px;
-    margin-bottom:28px;
+    margin-bottom: 28px;
+    width:80%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-
 }
 
+/* Image hovering displaying name*/
 
-.hbbl, .dct, .projects{
-
+.hbbl, .dct, .projects {
     background-color: #dddddd;
     height: 280px;
     width: 280px;
-
-}
-/* Image hovering displaying name*/
-
-.hbbl{
- position: relative;
- float: left;
-
-}
-
-.hbbl div{
- position: absolute;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- margin-bottom: 5px;
- font-family: sans-serif;
- opacity: 0;
- visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.5s linear; 
- transition: visibility 0s, opacity 0.5s linear;
-  
-}
-
-.hbbl:hover{
- cursor: pointer;
-}
-
-.hbbl:hover div{
- width: 150px;
- padding: 8px 15px;
- visibility: visible;
- opacity: 0.7; 
+    position: relative;
+    float: left;
 }
 
 
-.dct{
- position: relative;
- float: left;
-
+.hbbl div, .dct div, .projects div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
-.dct div{
- position: absolute;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- margin-bottom: 5px;
- font-family: sans-serif;
- opacity: 0;
- visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.5s linear; 
- transition: visibility 0s, opacity 0.5s linear;
-  
+.hbbl:hover, .dct:hover, .projects:hover {
+    cursor: pointer;
 }
 
-.dct:hover{
- cursor: pointer;
-}
-
-.dct:hover div{
- width: 150px;
- padding: 8px 15px;
- visibility: visible;
- opacity: 0.7; 
+.hbbl:hover div, .dct:hover div, .projects:hover div {
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
 }
 
 
-.projects{
- position: relative;
- float: left;
- margin-bottom:15px;
-
-}
-
-.projects div{
- position: absolute;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- margin-bottom: 5px;
- font-family: sans-serif;
- opacity: 0;
- visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.5s linear; 
- transition: visibility 0s, opacity 0.5s linear;
-  
-}
-
-.projects:hover{
- cursor: pointer;
-}
-
-.projects:hover div{
- width: 150px;
- padding: 8px 15px;
- visibility: visible;
- opacity: 0.7; 
-}
-
-footer{
-   margin-top: 50px;
+footer {
+    margin-top: 50px;
     border-top: #d9d9d9 solid 1px;
     height: 120px;
     background-color: white;
@@ -294,127 +199,114 @@ footer{
     width: 100%;
 }
 
-.le{
-
+.le {
     padding-top: 15px;
     text-align: center;
     font-size: 1em;
-    margin-top:30px;
+    margin-top: 30px;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-
-
 }
-.iphone-dct > img{
 
+.iphone-dct > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
-
-.iphone-dct > h1{
-
-    font-size: 2em;  
+.iphone-dct > h1 {
+    font-size: 2em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     text-align: center;
-
-
 }
 
-
-.dct-p > p{
-
+.dct-p > p {
     text-align: left;
     font-family: "Lora", serif;
     font-size: 1.1em;
     line-height: 1.5;
-    color:black;
-    padding-left:20%;
-    padding-right:20%;
-    margin-bottom:50px;
-
+    color: black;
+    margin-bottom: 50px;
+    width: 60%;
+    margin: 0 auto;
 
 }
 
-.dct-gh {
-
+.dct-links {
     text-decoration: none;
     color: #2C3E50;
     font-family: "Lora", serif;
     background-color: transparent;
-
 }
 
-.dct-p a:hover{
-     background-color: #F8F8F8;
+.dct-p a:hover {
+    background-color: #F8F8F8;
 }
 
+
+.graph { 
+    display: block;
+    margin: 0 auto;
+    width:60%;
+    margin-top:20px;
+    margin-bottom:70px;
+}
+
+.iphone-dct > hr{
+
+width:60%;
+background-color: black;
+
+}
 
 /* MEDIA QUERY computer*/
 @media screen and (max-width:1100px) and (min-width:0px) {
-.hello-intro > h2{
+    .hello-intro > h2 {
+        font-size: 2.1em;
+        left: 55%;
+    }
 
-    font-size: 2.1em;
-    left: 55%;
+    .container-projects {
+        height: 570px;
+        width: 90%;
+    }
 
-}
-
-.container-projects{
-    
-    height: 570px;
-    width: 90%;
-
-}
-
-.hbbl, .dct, .projects{
-
-    height: 253px;
-    width: 253px;
+    .hbbl, .dct, .projects {
+        height: 253px;
+        width: 253px;
+    }
 
 }
-
-}
-
 
 @media screen and (max-width:564px) {
+    .container-projects {
+        height: 852px;
+        width: 100%;
+    }
 
-
-.container-projects{
-    
-    height: 852px;
-    width: 100%;
-
-}}
-
-
+}
 
 /* MEDIA QUERY phone*/
 @media screen and (max-width:449px) {
+    .hello-intro > h2 {
+        font-size: 2.1em;
+        left: 60%;
+        top: 47%;
+    }
 
-.hello-intro > h2{
+    .container-projects {
+        height: 850px;
+        width: 100%;
+    }
 
-    font-size: 2.1em;
-    left: 60%;
-    top: 47%;
+    .hbbl, .dct, .projects {
+        height: 260px;
+        width: 260px;
+    }
 
-}
-
-.container-projects{
-    
-    height: 850px;
-    width: 100%;
-
-}
-
-.hbbl, .dct, .projects{
-
-    height: 260px;
-    width: 260px;
-
-}
+    ol{
+        margin-left:23%; 
+    }
 
 }
