@@ -13,12 +13,12 @@
 .nav-bar > ul > li > a{
 
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    color: #A9A9A9;
+    color: gray;
     text-align: center;
-    margin:15px;
+    margin:10px;
 }
 
 
@@ -60,7 +60,7 @@ ul{
     font-size: 16px;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    color: #A9A9A9;
+    color: gray;
     text-align: center;
     margin:6px;
 }
@@ -87,14 +87,14 @@ position:absolute;
 }
 
 .container-intro a:hover {
-    color: #383838;
+    color: black;
     text-decoration: :none;
     font-weight: none
 }
 
 
 .nav-bar a:hover {
-    color: #383838;
+    color: black;
     text-decoration: :none;
     font-weight: none
 }
@@ -208,10 +208,12 @@ hr {
 }
 
 form{
+    
     display:flex;
-    justify-content: center;
-    flex-direction:row;
+    align-items:center;
+    flex-direction:column;
     margin-bottom:30px
+
 }
 
 form label{
@@ -221,16 +223,7 @@ form label{
     font-size: 1.1em;
 }
 
-
-form textarea {
-    margin-left:5px;
-  height: 100px;
-  width: 20%;
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-form [type =submit]{
+input[type =submit]{
 
     margin-left:10px;
     width:50px;
@@ -239,40 +232,14 @@ form [type =submit]{
 }
 
 
-/* Image hovering displaying name*/
-
-.hbbl, .dct, .projects {
-    background-color: #dddddd;
-    height: 280px;
-    width: 280px;
-    position: relative;
-    float: left;
-}
-
-
-.hbbl div, .dct div, .projects div {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: black;
-    color: white;
-    margin-bottom: 5px;
-    font-family: sans-serif;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-
-.hbbl:hover, .dct:hover, .projects:hover {
-    cursor: pointer;
-}
-
-.hbbl:hover div, .dct:hover div, .projects:hover div {
-    width: 150px;
-    padding: 8px 15px;
-    visibility: visible;
-    opacity: 0.7;
+input[type=text], select, textarea {
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 
@@ -294,20 +261,20 @@ footer {
     font-weight: 300;
 }
 
-.iphone-dct > img {
+.projects-iphone > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.iphone-dct > h1 {
+.projects-iphone > h1 {
     font-size: 2em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     text-align: center;
 }
 
-.dct-p > p {
+.projects-p > p {
     text-align: left;
     font-family: "Lora", serif;
     font-size: 1.1em;
@@ -316,18 +283,23 @@ footer {
     margin-bottom: 50px;
     width: 60%;
     margin: 0 auto;
-
 }
 
-.dct-links {
+.projects-links {
     text-decoration: none;
-    color: #2C3E50;
+    color: gray;
     font-family: "Lora", serif;
     background-color: transparent;
 }
 
-.dct-p a:hover {
+.projects-p a:hover {
     background-color: #F8F8F8;
+}
+
+.center{
+    display:inline-block;
+    margin-left:28%;
+
 }
 
 
@@ -339,7 +311,7 @@ footer {
     margin-bottom:70px;
 }
 
-.iphone-dct > hr{
+.projects-iphone- > hr{
 
 width:60%;
 background-color: black;
