@@ -131,6 +131,15 @@ h4{
     width:60%;
 }
 
+h5{
+    margin: 0px auto 0px auto;
+    text-align: left;
+    width:60%;
+    font-size: 19px;
+    font-family: "Lato", sans-serif;
+}
+
+
 
 ol {
     font-family: "Lora", serif;
@@ -274,12 +283,13 @@ footer {
 }
 
 
-.graph { 
+.project-screeenshot { 
     display: block;
     margin: 0 auto;
     width:60%;
     margin-top:20px;
     margin-bottom:70px;
+    border: 1px solid black;
 }
 
 .projects-iphone- > hr{
