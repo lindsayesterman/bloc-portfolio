@@ -1,352 +1,331 @@
-.nav-bar{
-    
-    width:100%;
-    background-color: transparent;
-    position: absolute;
-    bottom:20px;
-    top:1px;
-    display:flex;
-    justify-content: flex-end;
-    
+.nav-bar {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  bottom: 20px;
+  top: 1px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.nav-bar > ul > li > a{
-    
-    text-decoration: none;
-    font-size: 15px;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: gray;
-    text-align: center;
-    margin:10px;
+.nav-bar > ul > li > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  margin: 10px;
 }
 
-
-.container-intro{
-    
-    position: absolute;
-    top: 50%;
-    width: 200px;
-    height: 80px;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
-    text-align: center;
-    
+.container-intro {
+  position: absolute;
+  top: 50%;
+  width: 200px;
+  height: 80px;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  text-align: center;
 }
-
 
 .hello-intro > h2 {
-    font-size: 2em;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
-ul{
-    
-    list-style: none;
-    display:flex;
-    flex-direction: row;
-    padding-left: 0;
-    justify-content: center;
-    
-    
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  justify-content: center;
 }
 
-
-.github, .portfolio {
-    text-decoration: none;
-    font-size: 16px;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: gray;
-    text-align: center;
-    margin:6px;
+.github,
+.portfolio {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  margin: 6px;
 }
-
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
 #particles-js {
-    height: 100%;
-    background: #eaf1f8;
-    display:flex;
-    justify-content: center;
-    align-items:center;
+  height: 100%;
+  background: #eaf1f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.particles-js-canvas-el{
-    
-    position:absolute;
-    
+.particles-js-canvas-el {
+  position: absolute;
 }
 
 .container-intro a:hover {
-    color: black;
-    text-decoration: :none;
-    font-weight: none
+  color: black;
+  text-decoration: none;
+  font-weight: none;
 }
 
-
 .nav-bar a:hover {
-    color: black;
-    text-decoration: :none;
-    font-weight: none
+  text-decoration: underline;
 }
 
 .scroll_down {
-    text-align: center;
-    width:100px;
-    margin-left:-50px;
-    position: absolute;
-    bottom:20px;
-    left:50%;
+  text-align: center;
+  width: 100px;
+  margin-left: -50px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
 }
 
-p, h3{
-    font-family: "Lora", serif;
-    color: #858585;
-    text-align: left;
-    line-height: 1.8;
-    font-size: 1.3em;
-    display: block;
-    margin: 0 auto;
-    width:60%;
-    margin-bottom: 16px;
-    font-weight:500;
+p,
+h3 {
+  font-family: "Lora", serif;
+  color: #00000099;
+  text-align: left;
+  line-height: 1.8;
+  font-size: 1.3em;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 16px;
+  font-weight: 500;
 }
 
-
-h4{
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-size: 1.6em;
-    margin: 35px auto 0.5em auto;
-    text-align: left;
-    width:60%;
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  margin: 35px auto 0.5em auto;
+  text-align: left;
+  width: 60%;
 }
 
-h5{
-    margin: 0px auto 0px auto;
-    text-align: left;
-    width:60%;
-    font-size: 19px;
-    font-family: "Lato", sans-serif;
+h5 {
+  margin: 0px auto 0px auto;
+  text-align: left;
+  width: 60%;
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
 }
-
-
 
 ol {
-    font-family: "Lora", serif;
-    color: #858585;
-    line-height: 1.8;
-    font-size: 1.2em;
-    list-style:decimal;
-    margin-bottom: 30px;
-    list-style-position: inside;
-    display:flex;
-    flex-direction: row;
-    padding-left: 0;
-    justify-content: center;
-    
+  font-family: "Lora", serif;
+  color: #858585;
+  line-height: 1.8;
+  font-size: 1.2em;
+  list-style: decimal;
+  margin-bottom: 30px;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  justify-content: center;
 }
 
 ol li a {
-    text-decoration: none;
-    color: #2C3E50;
-    font-family: "Lora", serif;
-    background-color: transparent;
-    margin-right:15px;
-    
+  text-decoration: none;
+  color: #2c3e50;
+  font-family: "Lora", serif;
+  background-color: transparent;
+  margin-right: 15px;
 }
 
 ol li a:hover {
-    background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .about_me > a {
-    text-decoration: none;
-    color: #2C3E50;
-    font-family: "Lora", serif;
-    background-color: transparent;
+  text-decoration: none;
+  color: #2c3e5050;
+  font-family: "Lora", serif;
+  background-color: transparent;
 }
 
 .about_me a:hover {
-    background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 html {
-    scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 .container-projects {
-    max-width: 1600px;
-    background-color: #ffffff;
-    height: 300px;
-    width: 80%;
-    margin-top: 50px;
-    margin: auto;
-    border-radius: 4px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
+  max-width: 1600px;
+  background-color: #ffffff;
+  height: 300px;
+  width: 80%;
+  margin-top: 50px;
+  margin: auto;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 hr {
-    height: 1px;
-    margin-bottom: 28px;
-    width:60%;
+  height: 1px;
+  margin-bottom: 28px;
+  width: 60%;
 }
 
-input, textarea, button {
-    display:block;
-    margin: 20px auto;
-    width:50%;
-    height:30px;
+input,
+textarea,
+button {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  height: 30px;
 }
 
 textarea {
-    height:70px;
-    resize:vertical;
+  height: 70px;
+  resize: vertical;
 }
 
 label {
-    width:50%;
-    display: block;
-    margin: 0 auto;
-    font-size: 20px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
 }
 
 footer {
-    margin-top: 50px;
-    border-top: #d9d9d9 solid 1px;
-    height: 120px;
-    background-color: white;
-    color: #4d4d4d;
-    width: 100%;
+  margin-top: 50px;
+  border-top: #d9d9d9 solid 1px;
+  height: 120px;
+  background-color: white;
+  color: #4d4d4d;
+  width: 100%;
 }
 
 .le {
-    padding-top: 15px;
-    text-align: center;
-    font-size: 1em;
-    margin-top: 30px;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 .projects-iphone > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projects-iphone > h1 {
-    font-size: 2em;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    text-align: center;
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
 .projects-p > p {
-    text-align: left;
-    font-family: "Lora", serif;
-    font-size: 1.1em;
-    line-height: 1.5;
-    color: black;
-    margin-bottom: 50px;
-    width: 60%;
-    margin: 0 auto;
+  text-align: left;
+  font-family: "Lora", serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 50px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .projects-links {
-    text-decoration: none;
-    color: #51A0D5;
-    font-family: "Lora", serif;
-    background-color: transparent;
+  text-decoration: none;
+  color: #0c97f3;
+  font-family: "Lora", serif;
+  background-color: transparent;
 }
 
 .projects-p a:hover {
-    background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
-.center{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-
-.project-screeenshot { 
-    display: block;
-    margin: 0 auto;
-    width:60%;
-    margin-top:20px;
-    margin-bottom:70px;
-    border: 1px solid black;
+.project-screeenshot {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  border: 1px solid black;
 }
 
-.projects-iphone- > hr{
-    
-    width:60%;
-    background-color: black;
-    
+.projects-iphone- > hr {
+  width: 60%;
+  background-color: black;
 }
 
 /* MEDIA QUERY computer*/
-@media screen and (max-width:1100px) and (min-width:0px) {
-    .hello-intro > h2 {
-        font-size: 2.1em;
-    }
-    
-    .container-projects {
-        height: 400px;
-        width: 90%;
-    }
-    
-    .hbbl, .dct, .projects {
-        height: 253px;
-        width: 253px;
-    }
-    
+@media screen and (max-width: 1100px) and (min-width: 0px) {
+  .hello-intro > h2 {
+    font-size: 2.1em;
+  }
+
+  .container-projects {
+    height: 400px;
+    width: 90%;
+  }
+
+  .hbbl,
+  .dct,
+  .projects {
+    height: 253px;
+    width: 253px;
+  }
 }
 
-
-@media screen and (min-width:400px) and (max-width:850px) {
-    .container-projects {
-        height: 780px;
-        width: 100%;
-    }
-    
+@media screen and (min-width: 400px) and (max-width: 850px) {
+  .container-projects {
+    height: 780px;
+    width: 100%;
+  }
 }
 
 /* MEDIA QUERY phone*/
-@media screen and (max-width:449px) {
-    .hello-intro > h2 {
-        font-size: 2.1em;
-    }
-    
-    .container-projects {
-        height: 850px;
-        width: 100%;
-    }
-    
-    .hbbl, .dct, .projects {
-        height: 260px;
-        width: 260px;
-    }
-    
-    p{
-        width:80%;
-    }
-    
-    .projects-p > p {
-        width:80%;
-    }
+@media screen and (max-width: 449px) {
+  .hello-intro > h2 {
+    font-size: 2.1em;
+  }
+
+  .container-projects {
+    height: 850px;
+    width: 100%;
+  }
+
+  .hbbl,
+  .dct,
+  .projects {
+    height: 260px;
+    width: 260px;
+  }
+
+  p {
+    width: 80%;
+  }
+
+  .projects-p > p {
+    width: 80%;
+  }
 }
