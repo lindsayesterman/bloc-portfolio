@@ -141,7 +141,7 @@ ol li a:hover {
 
 .about_me > a {
   text-decoration: none;
-  color: #0c97f3;
+  color: rgb(0, 89, 255);
   font-family: "Lora", serif;
   background-color: transparent;
 }
@@ -239,7 +239,7 @@ footer {
 
 .projects-links {
   text-decoration: none;
-  color: #0c97f3;
+  color:rgb(0, 89, 255);
   font-family: "Lora", serif;
   background-color: transparent;
 }
@@ -266,6 +266,10 @@ footer {
 .projects-iphone- > hr {
   width: 60%;
   background-color: black;
+}
+
+img.adjust-img{
+  width:300px;
 }
 
 /* MEDIA QUERY computer*/
